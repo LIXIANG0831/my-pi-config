@@ -1,0 +1,13 @@
+{
+  "name": "my-pi-config",
+  "version": "1.0.0",
+  "private": true,
+  "description": "个人 pi 配置：COSMOPlat 供应商扩展 + 资源目录",
+  "keywords": ["pi-package"],
+  "pi": {
+    "extensions": ["./extensions"],
+    "skills": ["./skills"],
+    "prompts": ["./prompts"],
+    "themes": ["./themes"]
+  }
+}
